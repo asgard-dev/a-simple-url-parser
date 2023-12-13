@@ -11,7 +11,7 @@ npm install https://github.com/asgard-dev/a-simple-url-parser
 ## Usage Example
 
 ```javascript
-const URLParser = require('a-simple-urll-parser');
+const URLParser = require('a-simple-url-parser');
 const parser = new URLParser('https://www.example.com/path?query=123#hash');
 
 console.log(parser.getProtocol()); // Outputs: https
