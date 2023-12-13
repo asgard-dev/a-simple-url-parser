@@ -6,8 +6,9 @@ A simple URL parsing library for Node.js.
 
 ```bash
 npm install https://github.com/asgard-dev/a-simple-url-parser
+```
 
-### Usage Example
+## Usage Example
 
 ```javascript
 const URLParser = require('a-simple-urll-parser');
@@ -18,3 +19,4 @@ console.log(parser.getHostname()); // Outputs: www.example.com
 console.log(parser.getPathname()); // Outputs: /path
 console.log(parser.getSearchParams()); // Outputs: { query: '123' }
 console.log(parser.getHash()); // Outputs: #hash
+```
