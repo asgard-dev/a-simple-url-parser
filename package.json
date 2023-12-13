@@ -1,0 +1,20 @@
+{
+  "name": "a-simple-url-parser",
+  "version": "1.0.0",
+  "description": "A simple URL parser library for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "url",
+    "parser",
+    "javascript"
+  ],
+  "author": "Asgardian",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asgard-dev/a-simple-url-parser.git"
+  }
+}
